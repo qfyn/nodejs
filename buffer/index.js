@@ -48,3 +48,4 @@ const concatBuf = Buffer.concat([allocBuf1, allocBuf2]);
 for (const b of concatBuf) {
   console.log(String.fromCharCode(b));
 }
+console.log(allocBuf1.includes('a'));
