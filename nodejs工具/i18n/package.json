@@ -1,0 +1,21 @@
+{
+	"name": "i18n",
+	"version": "1.0.0",
+	"description": "Fast vue i18n，Extract Chinese & Translate & Replace Chinese",
+	"scripts": {
+		"pick": "node pick.js",
+		"translate": "node translate.js",
+		"replace": "node replace.js",
+		"extract": "node extract.js",
+		"analysis": "node analysis.js",
+		"update": "node update.js"
+	},
+	"dependencies": {
+		"@vitalets/google-translate-api": "^8.0.0",
+		"axios": "^0.27.2",
+		"cheerio": "1.0.0-rc.12",
+		"fs-extra": "^10.1.0",
+		"tunnel": "^0.0.6",
+		"vue-i18n-extract": "^2.0.7"
+	}
+}

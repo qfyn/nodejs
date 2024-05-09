@@ -1,0 +1,13 @@
+.DS_STORE
+node_modules
+*.log
+vue-i18n-extract.config.js
+
+# Ignore relevant Yarn 2 files.
+# Source: https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.yarn/
+
+.VSCodeCounter
+.vscode
+lang/
+vue-files/

@@ -1,0 +1,10 @@
+{
+  "message-memberlist-addMember": "新建成员",
+  "message-memberlist-edit": "编辑",
+  "message-memberlist-resetPassword": "重置密码",
+  "message-memberlist-delete": "删除",
+  "message-sitemessage-markAllRead": "全部标记已读",
+  "message-sitemessage-markRead": "标记已读",
+  "message-sitemessage-delete": "删除",
+  "message-subscription-edit": "编辑"
+}
