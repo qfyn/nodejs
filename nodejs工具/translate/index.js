@@ -52,9 +52,16 @@ function translate(queryField) {
         const data = chunk.toString()
         if (data.indexOf('"event":"TranslationSucceed"') !== -1) {
           const translateMsg = resultData[resultData.length - 2]
-          const reg = /(?<=\[)({.*})(?=\])/g
-          const translateData = JSON.parse(translateMsg.match(reg)[0])
-          resolve(translateData.dst)
+          const reg = /\[.*\]/g
+          if(JSON.parse(translateMsg.match(reg))){
+            const translateData = JSON.parse(translateMsg.match(reg)[0])
+            let str = ''
+            console.log(translateData);
+            translateData.forEach(element => {
+              str += element.dst
+            });
+            resolve(str)
+          }
         }
       })
     })
