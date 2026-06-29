@@ -1,1 +1,17 @@
 node_modules
+mytest-api
+翻译java文件中的中文
+/nodejs工具/提取ts的中文/*
+!/nodejs工具/提取ts的中文/
+!/nodejs工具/提取ts的中文/index.js
+!/nodejs工具/提取ts的中文/singleTemplateFile.js
+/nodejs工具/获取巨潮资讯网站数据/supervisoryBoardAnnualReport
+/nodejs工具/获取巨潮资讯网站数据/annualReport/data
+/nodejs工具/获取巨潮资讯网站数据/annualReport/test
+/nodejs工具/获取巨潮资讯网站数据/supervisoryBoardReport/data
+/nodejs工具/获取巨潮资讯网站数据/supervisoryBoardReport/data1
+/nodejs工具/获取巨潮资讯网站数据/supervisoryBoardReport/result
+/nodejs工具/获取巨潮资讯网站数据/supervisoryBoardReport/result1
+/nodejs工具/获取巨潮资讯网站数据/supervisoryBoardReport/test
+/nodejs工具/获取巨潮资讯网站数据/mergeAllData
+/nodejs工具/获取巨潮资讯网站数据/mergeData/json
